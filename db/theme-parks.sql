@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS theme_parks;
+CREATE DATABASE theme_parks;
