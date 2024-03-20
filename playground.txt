@@ -1,0 +1,38 @@
+You are now connected to database "theme_parks" as user "philippa".
+ park_id |            park_name            | year_opened | annual_attendance 
+---------+---------------------------------+-------------+-------------------
+       1 | Thorpe Park                     |        1979 |           1700000
+       2 | Alton Towers                    |        1980 |           2520000
+       3 | Chessington World of Adventures |        1987 |           1400000
+       4 | Tivoli Gardens                  |        1843 |           3972000
+(4 rows)
+
+ ride_id | park_id |       ride_name        | year_opened | votes 
+---------+---------+------------------------+-------------+-------
+       1 |       1 | Colossus               |        2002 |     5
+       2 |       1 | Stealth                |        2006 |     4
+       3 |       1 | Loggers Leap           |        1989 |     9
+       4 |       1 | Mr Monkeys Banana Ride |        1994 |     5
+       5 |       1 | Tidal Wave             |        2000 |     1
+       6 |       1 | Rocky Express          |        1989 |     5
+       7 |       2 | Nemesis                |        1994 |     5
+       8 |       2 | The Smiler             |        2013 |     1
+       9 |       2 | Rita                   |        2005 |     5
+      10 |       2 | Congo River Rapids     |        1994 |     3
+      11 |       2 | Enterprise             |        1984 |     5
+      12 |       2 | Gallopers Carousel     |        1991 |     7
+      13 |       3 | Rattlesnake            |        1998 |    11
+      14 |       3 | Tiger Rock             |        2018 |     3
+      15 |       3 | KOBRA                  |        2010 |     1
+      16 |       3 | Tiny Truckers          |        1994 |     2
+      17 |       4 | The Demon              |        2004 |     8
+      18 |       4 | The Caravan            |        1974 |     1
+      19 |       4 | The Bumper Cars        |        1926 |    25
+      20 |       4 | The Little Pilot       |        1990 |     6
+(20 rows)
+
+  park_name   | year_opened | annual_attendance | average_votes | ride_count 
+--------------+-------------+-------------------+---------------+------------
+ Alton Towers |        1980 |           2520000 |          4.33 |          6
+(1 row)
+

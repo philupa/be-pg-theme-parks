@@ -1,0 +1,34 @@
+{
+  "name": "be-pg-themeparks",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test-app": "PGDATABASE=theme_parks jest app.test.js",
+    "test-seed": "PGDATABASE=theme_parks jest seed.test.js",
+    "test-utils": "PGDATABASE=theme_parks jest utils.test.js",
+    "setup-db": "psql -f ./db/theme-parks.sql",
+    "seed": "PGDATABASE=theme_parks node db/run-seed.js",
+    "playground": "psql -f playground.sql > playground.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/northcoders/be-pg-themeparks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/northcoders/be-pg-themeparks/issues"
+  },
+  "homepage": "https://github.com/northcoders/be-pg-themeparks#readme",
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "pg-format": "^1.0.4",
+    "supertest": "^6.3.3"
+  },
+  "description": "This sprint covers two days worth of content.",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pg": "^8.11.3"
+  }
+}
